@@ -1,0 +1,23 @@
+{
+  "Title": "Cafe Leblanc",
+  "Type": "map",
+  "Org": "ppack",
+  "Ident": "cafe_leblanc",
+  "Tags": "map",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": false,
+  "CodePath": null,
+  "Metadata": {
+    "ProjectTemplate": null,
+    "GameSupport": [
+      "facepunch.sandbox"
+    ],
+    "Summary": "cafe leblanc from the persona 5 series",
+    "Description": "",
+    "Public": true,
+    "ReplaceTags": "map chill dusk persona"
+  }
+}

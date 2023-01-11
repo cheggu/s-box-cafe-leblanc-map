@@ -1,0 +1,754 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						note = "Type note..."
+						filename = "Cafe Leblanc.obj"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.6
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"cafe_leblanc57",
+								"cafe_leblanc56",
+								"cafe_leblanc59",
+								"cafe_leblanc60",
+								"cafe_leblanc23",
+								"cafe_leblanc55",
+								"cafe_leblanc54",
+								"cafe_leblanc7",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "Ground floor scenery.obj"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.6
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ground_floor_scenery7",
+								"ground_floor_scenery34",
+								"ground_floor_scenery138",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "Front Door.obj"
+						import_translation = [ 870.0, 13.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.6
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "Toilet Door.obj"
+						import_translation = [ -155.0, -60.0, 100.0 ]
+						import_rotation = [ 0.0, 270.0, 0.0 ]
+						import_scale = 0.6
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "Shelf Jars.obj"
+						import_translation = [ 440.0, 190.0, 120.0 ]
+						import_rotation = [ 0.0, 270.0, 0.0 ]
+						import_scale = 0.6
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "f003_002_counter01_1_0.vmat"
+								to = "f003_002_counter01.vmat"
+							},
+							{
+								from = "f003_002_counter02_0.vmat"
+								to = "f003_002_counter02.vmat"
+							},
+							{
+								from = "f003_002_counter03_3.vmat"
+								to = "f003_002_counter03.vmat"
+							},
+							{
+								from = "f003_002_door02_g_0.vmat"
+								to = "f003_002_door01.vmat"
+							},
+							{
+								from = "f003_002_floor01_0.vmat"
+								to = "f003_002_floor01.vmat"
+							},
+							{
+								from = "f003_002_floor02_1.vmat"
+								to = "f003_002_floor01.vmat"
+							},
+							{
+								from = "f003_002_floor03_1.vmat"
+								to = "f003_002_floor03.vmat"
+							},
+							{
+								from = "f003_002_floor04_1.vmat"
+								to = "f003_002_floor04.vmat"
+							},
+							{
+								from = "f003_002_floor05_0.vmat"
+								to = "f003_002_floor05.vmat"
+							},
+							{
+								from = "f003_002_floor06_0.vmat"
+								to = "f003_002_floor06.vmat"
+							},
+							{
+								from = "f003_002_kabe02_0.vmat"
+								to = "f003_002_kabe02.vmat"
+							},
+							{
+								from = "f003_002_kabe02_wood_0.vmat"
+								to = "f003_002_kabe02.vmat"
+							},
+							{
+								from = "f003_002_kabe03+++_1.vmat"
+								to = "f003_002_kabe03.vmat"
+							},
+							{
+								from = "f003_002_kabe03_0.vmat"
+								to = "f003_002_kabe03.vmat"
+							},
+							{
+								from = "f003_002_kabe04_0.vmat"
+								to = "f003_002_kabe04.vmat"
+							},
+							{
+								from = "f003_002_pillar01_1.vmat"
+								to = "f003_002_pillar01.vmat"
+							},
+							{
+								from = "f003_002_roof01_1.vmat"
+								to = "f003_002_roof01.vmat"
+							},
+							{
+								from = "f003_002_roof02_0.vmat"
+								to = "f003_002_roof02_0.vmat"
+							},
+							{
+								from = "f003_002_stairs01++_0.vmat"
+								to = "f003_002_stairs01.vmat"
+							},
+							{
+								from = "f003_002_stairs01+_0.vmat"
+								to = "f003_002_stairs01.vmat"
+							},
+							{
+								from = "f003_002_stairs01_1.vmat"
+								to = "f003_002_stairs01.vmat"
+							},
+							{
+								from = "f003_002_stairs02_1.vmat"
+								to = "f003_002_pillar01.vmat"
+							},
+							{
+								from = "f003_002_wall01_1.vmat"
+								to = "f003_002_wall01.vmat"
+							},
+							{
+								from = "f003_002_wall02_1.vmat"
+								to = "f003_002_roof01.vmat"
+							},
+							{
+								from = "f003_002_window01_1.vmat"
+								to = "f003_002_window01.vmat"
+							},
+							{
+								from = "f003_002_woodframe_3.vmat"
+								to = "f003_002_woodframe.vmat"
+							},
+							{
+								from = "madowaku.vmat"
+								to = "f003_002_roof01.vmat"
+							},
+							{
+								from = "gfddefaultmat0_3.vmat"
+								to = "gfddefaultmat0_3.vmat"
+							},
+							{
+								from = "eff.vmat"
+								to = "f003_002_woodframe.vmat"
+							},
+							{
+								from = "black_1_0.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "black_1.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/glass/glass_a.vmat"
+							},
+							{
+								from = "replace_0_3.vmat"
+								to = "materials/effects/black.vmat"
+							},
+							{
+								from = "eakon_1.vmat"
+								to = "eakon.vmat"
+							},
+							{
+								from = "f003_002_beans01+.vmat"
+								to = "f003_002_beans01.vmat"
+							},
+							{
+								from = "f003_002_book01_1.vmat"
+								to = "f003_002_book01.vmat"
+							},
+							{
+								from = "f003_002_book05_1.vmat"
+								to = "f003_002_book05.vmat"
+							},
+							{
+								from = "f003_002_book05_1_1.vmat"
+								to = "f003_002_book01.vmat"
+							},
+							{
+								from = "f003_002_box01+_1.vmat"
+								to = "f003_002_book05.vmat"
+							},
+							{
+								from = "f003_002_box01+_2.vmat"
+								to = "f003_002_book01.vmat"
+							},
+							{
+								from = "f003_002_counter03_2.vmat"
+								to = "f003_002_counter03.vmat"
+							},
+							{
+								from = "f003_002_counter04++_1.vmat"
+								to = "f003_002_counter04.vmat"
+							},
+							{
+								from = "f003_002_counter04+_1.vmat"
+								to = "f003_002_counter04.vmat"
+							},
+							{
+								from = "f003_002_counter04_1.vmat"
+								to = "f003_002_counter04.vmat"
+							},
+							{
+								from = "f003_002_curtain_1.vmat"
+								to = "f003_002_curtain.vmat"
+							},
+							{
+								from = "f003_002_curtain_a_1.vmat"
+								to = "f003_002_curtain.vmat"
+							},
+							{
+								from = "f003_002_desk01++.vmat"
+								to = "f003_002_desk01.vmat"
+							},
+							{
+								from = "f003_002_desk01+.vmat"
+								to = "f003_002_desk01.vmat"
+							},
+							{
+								from = "f003_002_desk01_1.vmat"
+								to = "f003_002_desk01.vmat"
+							},
+							{
+								from = "f003_002_desk01_2.vmat"
+								to = "f003_002_desk02.vmat"
+							},
+							{
+								from = "f003_002_desk02++.vmat"
+								to = "f003_002_desk02.vmat"
+							},
+							{
+								from = "f003_002_desk02+.vmat"
+								to = "f003_002_desk02.vmat"
+							},
+							{
+								from = "f003_002_desk02_1.vmat"
+								to = "f003_002_desk02.vmat"
+							},
+							{
+								from = "f003_002_desk02_2.vmat"
+								to = "f003_002_desk02.vmat"
+							},
+							{
+								from = "f003_002_entermat01_1.vmat"
+								to = "f003_002_entermat01.vmat"
+							},
+							{
+								from = "f003_002_entermat02_1.vmat"
+								to = "f003_002_entermat01.vmat"
+							},
+							{
+								from = "f003_002_fab01_1.vmat"
+								to = "f003_002_fab01.vmat"
+							},
+							{
+								from = "f003_002_komono01+++_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01++_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01+_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01+_1_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01_1_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01_hai_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_leaf01+_1.vmat"
+								to = "f003_002_leaf01.vmat"
+							},
+							{
+								from = "f003_002_leaf01_1.vmat"
+								to = "f003_002_leaf01.vmat"
+							},
+							{
+								from = "f003_002_metalrack01_a_1.vmat"
+								to = "f003_002_metalrack01.vmat"
+							},
+							{
+								from = "f003_002_metalrack01_m_1.vmat"
+								to = "f003_002_metalrack01.vmat"
+							},
+							{
+								from = "f003_002_pict01_1.vmat"
+								to = "f003_002_pict01.vmat"
+							},
+							{
+								from = "f003_002_pole01+_1.vmat"
+								to = "f003_002_pole01.vmat"
+							},
+							{
+								from = "f003_002_pole01_1.vmat"
+								to = "f003_002_pole01.vmat"
+							},
+							{
+								from = "f003_002_pos01_1.vmat"
+								to = "f003_002_pos01.vmat"
+							},
+							{
+								from = "f003_002_register_1.vmat"
+								to = "f003_002_register.vmat"
+							},
+							{
+								from = "f003_002_renga01_1.vmat"
+								to = "f003_002_renga01.vmat"
+							},
+							{
+								from = "f003_002_shelf01_1.vmat"
+								to = "f003_002_shelf01.vmat"
+							},
+							{
+								from = "f003_002_shelf02_1.vmat"
+								to = "f003_002_shelf02.vmat"
+							},
+							{
+								from = "f003_002_sink01_1.vmat"
+								to = "f003_002_sink01.vmat"
+							},
+							{
+								from = "f003_002_sink01_r_1.vmat"
+								to = "f003_002_sink01.vmat"
+							},
+							{
+								from = "f003_002_sink01_sh_1.vmat"
+								to = "f003_002_sink01.vmat"
+							},
+							{
+								from = "f003_002_sink02_1.vmat"
+								to = "f003_002_sink02.vmat"
+							},
+							{
+								from = "f003_002_sink02_g_1.vmat"
+								to = "f003_002_sink02.vmat"
+							},
+							{
+								from = "f003_002_sink02_sh_1.vmat"
+								to = "f003_002_sink02.vmat"
+							},
+							{
+								from = "f003_002_sofa01_1.vmat"
+								to = "f003_002_sofa.vmat"
+							},
+							{
+								from = "f003_002_sofa02_2_1.vmat"
+								to = "f003_002_sofa02.vmat"
+							},
+							{
+								from = "f003_002_sofa02_3_1.vmat"
+								to = "f003_002_sofa02.vmat"
+							},
+							{
+								from = "f003_002_towel02_1.vmat"
+								to = "f003_002_towel02.vmat"
+							},
+							{
+								from = "f003_002_tv_1.vmat"
+								to = "f003_002_tv.vmat"
+							},
+							{
+								from = "f003_002_woodframe_2.vmat"
+								to = "f003_002_woodframe.vmat"
+							},
+							{
+								from = "f003_002_worktable01_sh.vmat"
+								to = "f003_002_worktable01.vmat"
+							},
+							{
+								from = "f003_002_worktable04_sh.vmat"
+								to = "f003_002_worktable04.vmat"
+							},
+							{
+								from = "gfddefaultmat0_2.vmat"
+								to = "f003_002_worktable01.vmat"
+							},
+							{
+								from = "grasss_1.vmat"
+								to = "materials/glass/glass_a.vmat"
+							},
+							{
+								from = "kuro_1.vmat"
+								to = "materials/black_matte.vmat"
+							},
+							{
+								from = "m003_021_ramp01_1.vmat"
+								to = "m003_021_ramp.vmat"
+							},
+							{
+								from = "m003_021_ramp03_1.vmat"
+								to = "m003_021_ramp.vmat"
+							},
+							{
+								from = "replace_0_2.vmat"
+								to = "materials/black_matte.vmat"
+							},
+							{
+								from = "f003_002_komono03_1_1.vmat"
+								to = "f003_002_komono03.vmat"
+							},
+							{
+								from = "f003_002_komono01_hai_r_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono01_nagashi_1.vmat"
+								to = "f003_002_komono01.vmat"
+							},
+							{
+								from = "f003_002_komono04+_1.vmat"
+								to = "f003_002_komono04.vmat"
+							},
+							{
+								from = "f003_002_komono04_1_1.vmat"
+								to = "f003_002_komono04.vmat"
+							},
+							{
+								from = "f003_002_komono05+_1_1.vmat"
+								to = "f003_002_komono05.vmat"
+							},
+							{
+								from = "f003_002_komono06_1.vmat"
+								to = "f003_002_komono06.vmat"
+							},
+							{
+								from = "f003_002_komono07_1.vmat"
+								to = "f003_002_komono07.vmat"
+							},
+							{
+								from = "f003_002_komono07_nagashi_1.vmat"
+								to = "f003_002_komono07.vmat"
+							},
+							{
+								from = "f003_002_komono08_1.vmat"
+								to = "f003_002_komono08.vmat"
+							},
+							{
+								from = "f003_002_komono08_g_1.vmat"
+								to = "f003_002_komono08.vmat"
+							},
+							{
+								from = "f003_002_komono08_mirror_1.vmat"
+								to = "f003_002_komono08.vmat"
+							},
+							{
+								from = "f003_002_komono08_sh_1.vmat"
+								to = "f003_002_komono08.vmat"
+							},
+							{
+								from = "f003_002_komono11_1.vmat"
+								to = "f003_002_komono11.vmat"
+							},
+							{
+								from = "f003_002_komono12_1.vmat"
+								to = "f003_002_komono12.vmat"
+							},
+							{
+								from = "f003_002_komono12_sh_1.vmat"
+								to = "f003_002_komono12.vmat"
+							},
+							{
+								from = "material_10.vmat"
+								to = "models/sbox_props/industrial_light/industrial_light_glass.vmat"
+							},
+							{
+								from = "material_6.vmat"
+								to = "models/sbox_props/industrial_light/industrial_light_glass.vmat"
+							},
+							{
+								from = "material_7.vmat"
+								to = "models/sbox_props/industrial_light/industrial_light_glass.vmat"
+							},
+							{
+								from = "material_8.vmat"
+								to = "models/sbox_props/industrial_light/industrial_light_glass.vmat"
+							},
+							{
+								from = "material_9.vmat"
+								to = "models/sbox_props/industrial_light/industrial_light_glass.vmat"
+							},
+							{
+								from = "f003_002_door02_02.vmat"
+								to = "f003_002_door02.vmat"
+							},
+							{
+								from = "f003_002_door02_m.vmat"
+								to = "f003_002_door02.vmat"
+							},
+							{
+								from = "f003_002_door02_m_1.vmat"
+								to = "f003_002_door02.vmat"
+							},
+							{
+								from = "f003_002_door03_02.vmat"
+								to = "f003_002_door03.vmat"
+							},
+							{
+								from = "f003_002_door05_02.vmat"
+								to = "f003_002_door05.vmat"
+							},
+							{
+								from = "f003_002_door05_g.vmat"
+								to = "f003_002_door05.vmat"
+							},
+							{
+								from = "f003_002_door01_g.vmat"
+								to = "f003_002_door01.vmat"
+							},
+							{
+								from = "f003_002_komono05+.vmat"
+								to = "f003_002_komono05.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "Cafe Leblanc.obj"
+						import_scale = 0.6
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"cafe_leblanc23",
+								"cafe_leblanc54",
+								"cafe_leblanc55",
+								"cafe_leblanc56",
+								"cafe_leblanc57",
+								"cafe_leblanc59",
+							]
+						}
+					},
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 870.0, 13.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "Front Door.obj"
+						import_scale = 0.6
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "Ground floor scenery.obj"
+						import_scale = 0.6
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"ground_floor_scenery7",
+								"ground_floor_scenery34",
+								"ground_floor_scenery138",
+							]
+						}
+					},
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ -155.0, -60.0, 100.0 ]
+						offset_angles = [ 0.0, 270.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "Toilet Door.obj"
+						import_scale = 0.6
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 440.0, 190.0, 120.0 ]
+						offset_angles = [ 0.0, 270.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "Shelf Jars.obj"
+						import_scale = 0.6
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
